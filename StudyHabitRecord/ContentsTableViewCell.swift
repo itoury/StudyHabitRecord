@@ -21,7 +21,7 @@ class ContentsTableViewCell: UITableViewCell {
         super.setSelected(selected, animated: animated)
     }
     
-    func setData(contentsData: ContentsData) {
+    func setData(_ contentsData: ContentsData) {
         categoryLabel.text = contentsData.category!
         let formatter = DateFormatter()
         formatter.dateFormat = "HH:mm"

@@ -17,6 +17,8 @@ class HomeViewController: UIViewController, UITableViewDelegate, UITableViewData
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        contentsTableView.delegate = self
+        contentsTableView.dataSource = self
         let nib = UINib(nibName: "ContentsTableViewCell", bundle: nil)
         contentsTableView.register(nib, forCellReuseIdentifier: "ContentsCell")
     }
@@ -25,7 +27,7 @@ class HomeViewController: UIViewController, UITableViewDelegate, UITableViewData
         super.viewWillAppear(animated)
         if Auth.auth().currentUser != nil {
             if listener == nil {
-                let contentsRef = Firestore.firestore().collection(Const.ContentPath).order(by: "startTime", descending: true)
+                let contentsRef = Firestore.firestore().collection(Const.ContentPath).order(by: "startTime", descending: false)
                 listener = contentsRef.addSnapshotListener() { (querySnapshot, error) in
                     if let error = error {
                         print("DEBUG_PRINT: snapshotの取得が失敗しました。 \(error)")
@@ -57,7 +59,12 @@ class HomeViewController: UIViewController, UITableViewDelegate, UITableViewData
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = contentsTableView.dequeueReusableCell(withIdentifier: "ContentsCell", for: indexPath) as! ContentsTableViewCell
-        cell.setData(contentsData: contentsArray[indexPath.row])
+        cell.setData(contentsArray[indexPath.row])
         return cell
     }
+    
+    func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
+        return 60
+    }
+
 }

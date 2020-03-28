@@ -20,7 +20,14 @@ class ContentsData: NSObject {
         let contentsDic = document.data()
 
         self.category = contentsDic["category"] as? String
-        self.targetTime = contentsDic["targetTime"] as? Date
-        self.startTime = contentsDic["startTime"] as? Date
+        let targetTimestamp = contentsDic["targetTime"] as? Timestamp
+        let startTimestamp = contentsDic["startTime"] as? Timestamp
+        
+        self.targetTime = targetTimestamp?.dateValue()
+        self.startTime = startTimestamp?.dateValue()
+        
+        print(category!)
+        print(targetTime!)
+        print(startTime!)
     }
 }
