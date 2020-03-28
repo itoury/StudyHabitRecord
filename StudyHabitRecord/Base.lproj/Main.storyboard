@@ -150,10 +150,13 @@
                             </connections>
                         </barButtonItem>
                     </navigationItem>
+                    <connections>
+                        <outlet property="contentsTableView" destination="fwj-do-6hp" id="0qs-Sb-4Jc"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="PD7-Js-aln" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1013" y="1548"/>
+            <point key="canvasLocation" x="-1013.0434782608696" y="1547.5446428571429"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="8DQ-5k-QcS">

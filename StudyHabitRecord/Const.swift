@@ -9,6 +9,6 @@
 import Foundation
 
 struct Const {
-    static let CategoryPath = "cartegories"
+    static let CategoryPath = "categories"
     static let ContentPath = "contents"
 }

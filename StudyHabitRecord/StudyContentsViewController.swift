@@ -128,10 +128,9 @@ class StudyContentsViewController: UIViewController, UITextFieldDelegate, UIPick
         let contentDic = [
             "category" : categoryTextField.text!,
             "targetTime" : targetTimePicker.date,
-            "startTime" : timePicker.date,
+            "startTime" : timePicker.date
             ] as [String : Any]
         contentRef.document().setData(contentDic)
         self.navigationController?.popViewController(animated: true)
     }
-    
 }

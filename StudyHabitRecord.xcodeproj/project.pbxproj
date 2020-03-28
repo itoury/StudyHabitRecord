@@ -22,6 +22,7 @@
 		2A8A0F6D242E381600CEFC26 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A8A0F6C242E381600CEFC26 /* TabBarController.swift */; };
 		2A8A0F6F242E3A9200CEFC26 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A8A0F6E242E3A9200CEFC26 /* LoginViewController.swift */; };
 		2A8A0F73242E406D00CEFC26 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2A8A0F72242E406D00CEFC26 /* GoogleService-Info.plist */; };
+		2A8A0F75242F1BC300CEFC26 /* ContentsData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A8A0F74242F1BC300CEFC26 /* ContentsData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,6 +42,7 @@
 		2A8A0F6C242E381600CEFC26 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
 		2A8A0F6E242E3A9200CEFC26 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		2A8A0F72242E406D00CEFC26 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		2A8A0F74242F1BC300CEFC26 /* ContentsData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentsData.swift; sourceTree = "<group>"; };
 		6AB16288553918036139A5A0 /* Pods-StudyHabitRecord.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StudyHabitRecord.release.xcconfig"; path = "Target Support Files/Pods-StudyHabitRecord/Pods-StudyHabitRecord.release.xcconfig"; sourceTree = "<group>"; };
 		9102CFF91C4F4E6FC5900A69 /* Pods-StudyHabitRecord.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StudyHabitRecord.debug.xcconfig"; path = "Target Support Files/Pods-StudyHabitRecord/Pods-StudyHabitRecord.debug.xcconfig"; sourceTree = "<group>"; };
 		B1F4B852847934F652CDF405 /* Pods_StudyHabitRecord.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StudyHabitRecord.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -106,6 +108,7 @@
 				2A3EF943242B7684005A698D /* ContentsTableViewCell.swift */,
 				2A3EF944242B7684005A698D /* ContentsTableViewCell.xib */,
 				2A3EF9312428DA77005A698D /* Main.storyboard */,
+				2A8A0F74242F1BC300CEFC26 /* ContentsData.swift */,
 				2A4B2A24242E0937000426B5 /* Const.swift */,
 				2A3EF9342428DA7B005A698D /* Assets.xcassets */,
 				2A3EF9362428DA7B005A698D /* LaunchScreen.storyboard */,
@@ -127,7 +130,6 @@
 				2A3EF9252428DA77005A698D /* Frameworks */,
 				2A3EF9262428DA77005A698D /* Resources */,
 				AF2824C3639EEAA6D6ACB153 /* [CP] Embed Pods Frameworks */,
-				859BDE4648327051E31E1D2A /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -187,23 +189,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		859BDE4648327051E31E1D2A /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-StudyHabitRecord/Pods-StudyHabitRecord-resources-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-StudyHabitRecord/Pods-StudyHabitRecord-resources-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-StudyHabitRecord/Pods-StudyHabitRecord-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		AF2824C3639EEAA6D6ACB153 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -259,6 +244,7 @@
 				2A3EF940242B6A2C005A698D /* StudyContentsViewController.swift in Sources */,
 				2A3EF92E2428DA77005A698D /* SceneDelegate.swift in Sources */,
 				2A4B2A25242E0937000426B5 /* Const.swift in Sources */,
+				2A8A0F75242F1BC300CEFC26 /* ContentsData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -413,7 +399,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = jp.techacademy.ryuuya.itou.StudyHabitRecord;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -432,7 +418,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = jp.techacademy.ryuuya.itou.StudyHabitRecord;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

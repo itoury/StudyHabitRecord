@@ -12,7 +12,7 @@ pod 'Firebase','6.11.0'
   pod 'Firebase/Firestore'
   pod 'Firebase/Storage'
   pod 'FirebaseUI/Storage'
-  pod 'GoogleSignIn'
+  pod 'Firebase/Core'
+  pod 'Firebase/Messaging'
   pod 'SVProgressHUD','2.2.5'
-
 end
