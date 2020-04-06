@@ -15,4 +15,10 @@ pod 'Firebase','6.11.0'
   pod 'Firebase/Core'
   pod 'Firebase/Messaging'
   pod 'SVProgressHUD','2.2.5'
+  pod 'SwiftyPickerPopover'
+  pod 'SCLAlertView'
+  pod 'Charts'
+  pod 'SwiftDate'
+  pod "MBCircularProgressBar"
+
 end

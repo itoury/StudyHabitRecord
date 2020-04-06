@@ -63,6 +63,12 @@ class HomeViewController: UIViewController, UITableViewDelegate, UITableViewData
         return cell
     }
     
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        let timerViewController = self.storyboard?.instantiateViewController(withIdentifier: "Timer") as! TimerViewController
+        timerViewController.contentsData = contentsArray[indexPath.row]
+        self.present(timerViewController, animated: true, completion: nil)
+    }
+    
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
         return 60
     }

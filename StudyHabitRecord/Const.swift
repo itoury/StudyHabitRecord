@@ -11,4 +11,5 @@ import Foundation
 struct Const {
     static let CategoryPath = "categories"
     static let ContentPath = "contents"
+    static let StudyAchivementPath = "achivements"
 }

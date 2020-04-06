@@ -19,10 +19,15 @@
 		2A3EF945242B7684005A698D /* ContentsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A3EF943242B7684005A698D /* ContentsTableViewCell.swift */; };
 		2A3EF946242B7684005A698D /* ContentsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2A3EF944242B7684005A698D /* ContentsTableViewCell.xib */; };
 		2A4B2A25242E0937000426B5 /* Const.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A4B2A24242E0937000426B5 /* Const.swift */; };
+		2A4BF3CE2430067A00172D52 /* StudyRecordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A4BF3CD2430067A00172D52 /* StudyRecordViewController.swift */; };
+		2A4BF3D0243010F200172D52 /* StudyRecordData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A4BF3CF243010F200172D52 /* StudyRecordData.swift */; };
 		2A8A0F6D242E381600CEFC26 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A8A0F6C242E381600CEFC26 /* TabBarController.swift */; };
-		2A8A0F6F242E3A9200CEFC26 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A8A0F6E242E3A9200CEFC26 /* LoginViewController.swift */; };
 		2A8A0F73242E406D00CEFC26 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2A8A0F72242E406D00CEFC26 /* GoogleService-Info.plist */; };
 		2A8A0F75242F1BC300CEFC26 /* ContentsData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A8A0F74242F1BC300CEFC26 /* ContentsData.swift */; };
+		2A8A0F77242FAD0400CEFC26 /* TimerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A8A0F76242FAD0400CEFC26 /* TimerViewController.swift */; };
+		2AA6C5F52435B53100DB457A /* StudyAchivementViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA6C5F42435B53100DB457A /* StudyAchivementViewController.swift */; };
+		2AA6C5F72435B58800DB457A /* Container1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA6C5F62435B58800DB457A /* Container1ViewController.swift */; };
+		2AA6C5F92435B59C00DB457A /* Container2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA6C5F82435B59C00DB457A /* Container2ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,10 +44,15 @@
 		2A3EF943242B7684005A698D /* ContentsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentsTableViewCell.swift; sourceTree = "<group>"; };
 		2A3EF944242B7684005A698D /* ContentsTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ContentsTableViewCell.xib; sourceTree = "<group>"; };
 		2A4B2A24242E0937000426B5 /* Const.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Const.swift; sourceTree = "<group>"; };
+		2A4BF3CD2430067A00172D52 /* StudyRecordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudyRecordViewController.swift; sourceTree = "<group>"; };
+		2A4BF3CF243010F200172D52 /* StudyRecordData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudyRecordData.swift; sourceTree = "<group>"; };
 		2A8A0F6C242E381600CEFC26 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
-		2A8A0F6E242E3A9200CEFC26 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		2A8A0F72242E406D00CEFC26 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		2A8A0F74242F1BC300CEFC26 /* ContentsData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentsData.swift; sourceTree = "<group>"; };
+		2A8A0F76242FAD0400CEFC26 /* TimerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerViewController.swift; sourceTree = "<group>"; };
+		2AA6C5F42435B53100DB457A /* StudyAchivementViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudyAchivementViewController.swift; sourceTree = "<group>"; };
+		2AA6C5F62435B58800DB457A /* Container1ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Container1ViewController.swift; sourceTree = "<group>"; };
+		2AA6C5F82435B59C00DB457A /* Container2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Container2ViewController.swift; sourceTree = "<group>"; };
 		6AB16288553918036139A5A0 /* Pods-StudyHabitRecord.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StudyHabitRecord.release.xcconfig"; path = "Target Support Files/Pods-StudyHabitRecord/Pods-StudyHabitRecord.release.xcconfig"; sourceTree = "<group>"; };
 		9102CFF91C4F4E6FC5900A69 /* Pods-StudyHabitRecord.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StudyHabitRecord.debug.xcconfig"; path = "Target Support Files/Pods-StudyHabitRecord/Pods-StudyHabitRecord.debug.xcconfig"; sourceTree = "<group>"; };
 		B1F4B852847934F652CDF405 /* Pods_StudyHabitRecord.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StudyHabitRecord.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -101,14 +111,19 @@
 				2A3EF92B2428DA77005A698D /* AppDelegate.swift */,
 				2A3EF92D2428DA77005A698D /* SceneDelegate.swift */,
 				2A3EF92F2428DA77005A698D /* ViewController.swift */,
-				2A8A0F6E242E3A9200CEFC26 /* LoginViewController.swift */,
 				2A8A0F6C242E381600CEFC26 /* TabBarController.swift */,
 				2A3EF93F242B6A2C005A698D /* StudyContentsViewController.swift */,
 				2A3EF941242B7062005A698D /* HomeViewController.swift */,
 				2A3EF943242B7684005A698D /* ContentsTableViewCell.swift */,
+				2A8A0F76242FAD0400CEFC26 /* TimerViewController.swift */,
+				2A4BF3CD2430067A00172D52 /* StudyRecordViewController.swift */,
+				2AA6C5F42435B53100DB457A /* StudyAchivementViewController.swift */,
+				2AA6C5F62435B58800DB457A /* Container1ViewController.swift */,
+				2AA6C5F82435B59C00DB457A /* Container2ViewController.swift */,
 				2A3EF944242B7684005A698D /* ContentsTableViewCell.xib */,
 				2A3EF9312428DA77005A698D /* Main.storyboard */,
 				2A8A0F74242F1BC300CEFC26 /* ContentsData.swift */,
+				2A4BF3CF243010F200172D52 /* StudyRecordData.swift */,
 				2A4B2A24242E0937000426B5 /* Const.swift */,
 				2A3EF9342428DA7B005A698D /* Assets.xcassets */,
 				2A3EF9362428DA7B005A698D /* LaunchScreen.storyboard */,
@@ -235,15 +250,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2A8A0F6F242E3A9200CEFC26 /* LoginViewController.swift in Sources */,
+				2AA6C5F52435B53100DB457A /* StudyAchivementViewController.swift in Sources */,
+				2A4BF3D0243010F200172D52 /* StudyRecordData.swift in Sources */,
+				2AA6C5F72435B58800DB457A /* Container1ViewController.swift in Sources */,
 				2A3EF942242B7062005A698D /* HomeViewController.swift in Sources */,
 				2A8A0F6D242E381600CEFC26 /* TabBarController.swift in Sources */,
+				2AA6C5F92435B59C00DB457A /* Container2ViewController.swift in Sources */,
 				2A3EF9302428DA77005A698D /* ViewController.swift in Sources */,
 				2A3EF92C2428DA77005A698D /* AppDelegate.swift in Sources */,
 				2A3EF945242B7684005A698D /* ContentsTableViewCell.swift in Sources */,
 				2A3EF940242B6A2C005A698D /* StudyContentsViewController.swift in Sources */,
 				2A3EF92E2428DA77005A698D /* SceneDelegate.swift in Sources */,
 				2A4B2A25242E0937000426B5 /* Const.swift in Sources */,
+				2A4BF3CE2430067A00172D52 /* StudyRecordViewController.swift in Sources */,
+				2A8A0F77242FAD0400CEFC26 /* TimerViewController.swift in Sources */,
 				2A8A0F75242F1BC300CEFC26 /* ContentsData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
